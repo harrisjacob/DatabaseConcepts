@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ND Football Analytics</title>
+</head>
+
+<body>
+<p><a href="../index.html">To Demo Page</a></p>
+<p><a href="../stage_2.html">To Stage 2 Information</a></p>
+
+<p><b>Description of project:</b> We want to make a database system that contains information the plays run by Notre Dame and its opponents in order to assist the Notre Dame Football Analytics Program's scouting and self-scouting work. This work includes finding plays that meet certain criteria as well as creating scouting reports that contain many different query results.</p>
+
+<p><b>Usefullness:</b> This project will be very useful as it will automate the creation of scouting reports that are needed on a weekly basis and can take hours to complete. It will also allow users to more efficiently search for plays that meet a specific criteria rather than the clunky system currently in use.</p>
+
+<p><b>Realness:</b> Our data is the real data currently used by the Notre Dame Analystics Program. It is broken down by play. In order to satisify safety concerns we had to change play names and formations for the class demostration. Here is a sample row containing 1 play. </p>
+
+
+<table border=0 cellpadding=0 cellspacing=0 width=2838 class=xl6326193
+ style='border-collapse:collapse;table-layout:fixed;width:2145pt'>
+ <col class=xl6326193 width=86 span=33 style='width:65pt'>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl6326193 width=86 style='height:15.6pt;width:65pt'>#</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Name</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Quarter</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Series</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Series Seq</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Series End</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Down</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Dist</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Field Pos</td>
+  <td class=xl6326193 width=86 style='width:65pt'>pff_HASH</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Hash</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Situation</td>
+  <td class=xl6326193 width=86 style='width:65pt'>R/P</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Gain</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Explosive</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Result</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Win %</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Efficient</td>
+  <td class=xl6326193 width=86 style='width:65pt'>pff_BALLCAR<span
+  style='display:none'>RIER</span></td>
+  <td class=xl6326193 width=86 style='width:65pt'>pff_QB</td>
+  <td class=xl6326193 width=86 style='width:65pt'>pff_PASSDEP<span
+  style='display:none'>TH</span></td>
+  <td class=xl6326193 width=86 style='width:65pt'>pff_PASSREC<span
+  style='display:none'>EIVERTARGET</span></td>
+  <td class=xl6326193 width=86 style='width:65pt'>PassingMap<span
+  style='display:none'>_O</span></td>
+  <td class=xl6326193 width=86 style='width:65pt'>pff_YARDSA<span
+  style='display:none'>FTERCATCH</span></td>
+  <td class=xl6326193 width=86 style='width:65pt'>pff_YARDSA<span
+  style='display:none'>FTERCONTACT</span></td>
+  <td class=xl6326193 width=86 style='width:65pt'>pff_PASSRES<span
+  style='display:none'>ULT</span></td>
+  <td class=xl6326193 width=86 style='width:65pt'>Tempo</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Personnel</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Gen Formati<span
+  style='display:none'>on</span></td>
+  <td class=xl6326193 width=86 style='width:65pt'>Motion_Shif<span
+  style='display:none'>t</span></td>
+  <td class=xl6326193 width=86 style='width:65pt'>Backfield</td>
+  <td class=xl6326193 width=86 style='width:65pt'>Gen Play</td>
+  <td class=xl6326193 width=86 style='width:65pt'>pff_OFFPERS<span
+  style='display:none'>ONNELBASIC</span></td>
+ </tr>
+ <tr height=21 style='height:15.6pt'>
+  <td height=21 class=xl6326193 style='height:15.6pt'>1</td>
+  <td class=xl6326193>101</td>
+  <td class=xl6326193>1</td>
+  <td class=xl6326193>1</td>
+  <td class=xl6326193>1</td>
+  <td class=xl6326193>TOUCHDOWN<span style='display:none'>N</span></td>
+  <td class=xl6326193>1</td>
+  <td class=xl6326193>10</td>
+  <td class=xl6326193>-29</td>
+  <td class=xl6326193>R</td>
+  <td class=xl6326193>R</td>
+  <td class=xl6326193></td>
+  <td class=xl6326193>P</td>
+  <td class=xl6326193>34</td>
+  <td class=xl6326193>Y</td>
+  <td class=xl6326193>C</td>
+  <td class=xl6326193>Y</td>
+  <td class=xl6326193></td>
+  <td class=xl6326193>INND 06</td>
+  <td class=xl6326193>INND 07</td>
+  <td class=xl6326193>30</td>
+  <td class=xl6326193>INND 06</td>
+  <td class=xl6326193>L</td>
+  <td class=xl6326193>3</td>
+  <td class=xl6326193>1</td>
+  <td class=xl6326193>COMPLETE</td>
+  <td class=xl6326193></td>
+  <td class=xl6326193>A</td>
+  <td class=xl6326193>TOKYO</td>
+  <td class=xl6326193>BLUE</td>
+  <td class=xl6326193>P</td>
+  <td class=xl6326193>ANT</td>
+  <td class=xl6326193>0</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=86 style='width:65pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+<p><b>Functionality:</b><br>
+   We can insert/delete/update records in the database both manually or en masse by uploading a .csv file<br>
+   We have real data in the systemi which we have gather from the Notre Dame football analytics program<br>
+   We can search the database and print returned results. This will be accomplished with a series of of radio buttons and dropdown menus to help the user form queries
+</p>
+
+<p><b><center>ER Diagram</center></b></p>
+<img src="ER.jpg" alt="ER diagram" width="1000" height="650">
+<p><b>Assumptions:</b><br>
+   - There are many attributes listed on the server that, due to spacing, do not appear in the E/R diagram (see the table snippet listed above)<br>
+   - The only teams that will be in the ND/Opponents set are Notre Dame and the teams that it plays. However, a game will have a primary team and a secondary team. The primary team will be Notre Dame or one of its opponents if Notre Dame is not playing. This is necessary because in order to scout opponents we must look at their other games. (i.e. we use data from Georgia vs. Murray State) but only Georgia will appear in the ND/Opponents set.<br>
+   - Plays stored in the database are only those relevant to the Notre Dame offense. These plays include when Notre Dame is on offense and when an opponent is on defense.<br>
+</p>
+</body>
+
+
+
+</html>
+

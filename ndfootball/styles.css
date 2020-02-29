@@ -1,0 +1,233 @@
+:root {
+	/*black, dark blue, grey, bright-blue, green-blue */	
+	--color1: #0B0C10;
+	--color2: #1F2833;
+	--color3: #C5C6C7;
+	--color4: #66FCF1;
+	--color5: #45A29E;
+	/*
+	--color1: black;
+	--color2: #0C2340;
+	--color3: grey;
+	--color4: #D39F10;
+	--color5: #AE9142;
+	*/
+}
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	font-family: arial;
+	background-color: var(--color2);
+	color: var(--color4);
+}
+
+select, input, button {
+	font-size: 15px;
+	color: var(--color4);
+	border: 1px solid var(--color4);
+	border-radius: 10px;
+	background-color: var(--color1);
+}
+th, .query_in {
+	color: var(--color5);
+}
+td, .query_out {
+	color: var(--color3);
+}
+
+#basics {
+	background-color: #EEE;
+}
+.basic_elem {
+	position: relative;
+	margin-top: 20px;
+}
+#banner_header {
+	text-align: center;
+	/*border: 1px solid var(--color2);
+	background-color: var(--color2);
+	color: var(--color4);*/
+}
+#outer_main_div h3 {
+	margin-left: 35%;
+}
+.outlined {
+	background-color: var(--color1);
+	width: 30%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	/*padding-left: 8px;*/
+	/*border-radius: 10px;*/
+}
+#outer_main_div p {
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+}
+#features { 
+	position: relative; 
+	width: 30%;
+	margin-left: 35%;
+}
+#features div{
+	padding: 2px;
+	text-align: center;
+	margin-bottom: 5px;
+	position: relative;
+	border: 1px solid var(--color4);
+	border-radius: 10px;
+}
+.tooltip {
+	/*visibility: hidden;*/
+	display: none;
+	background-color: var(--color1);
+	text-align: center;
+	position: absolute;
+	top: 0;
+	border-radius: 20px;
+	width: 200px;
+	margin-left: -220px;
+	padding: 10px;
+}
+#features div:hover .tooltip {
+	/*visibility: visible;*/
+	display: block;
+}
+
+#insert_div input {
+	width: 80px;
+}
+
+.tab {
+	/*border-bottom: 5px solid var(--color5);*/
+	background-color: var(--color1);
+	padding-left: 5px;
+	height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.tablinks {
+	position: relative;
+	width: 13%; /*120px;*/
+	height: 30px;
+	margin: 0;
+	border: none;
+	outline: none;
+	padding: none;
+	font-size: 13px;
+	background-color: transparent;
+	color: var(--color4);
+	overflow: hidden;
+}
+.active {
+	height: 20px;
+	border-radius: 10px;
+	background-color: var(--color2);
+}
+.tabcontent {
+	padding-left: 5px;
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    top: 100px;
+    left: 8px;
+    right: 8px;
+    border: 1px solid transparent;
+}
+#outer_main_div ul {
+	text-align: center;
+    list-style: none;
+    padding: 0;
+}
+#outer_predict_div h1, #outer_predict_div h3, #outer_predict_div tbody, #outer_predict_div table{
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+#inputs label{
+	display: inline;
+}
+#inputs label, #inputs input{
+	clear: both;
+	justify: center;
+	right-margin: 2px;
+	left-margin: 2px;
+}
+#Sample p{
+	color: grey
+}
+
+//The button formatting can be taken out if needed
+.button{
+	font-family: arial;
+	border-radius:4px;
+	background:#03c2fc;
+	color:white;
+	padding:0.6em 3em;
+	display: inline-block;
+	box-shadow:2px 3px 0px #028ede;
+	position: relative;
+	transition: 0.3s all 0s ease;
+	cursor: pointer;
+	text-shadow: 0px -1px 1px darken(#03c2fc,20);
+}
+
+
+
+
+#to_homepage {
+	color: var(--color4);
+	font-size: 15px;	
+	line-height: 30px;
+	text-decoration: none;
+	/*border: 1px solid var(--color4);
+	border-radius: 10px;*/
+}
+
+#sc {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+}
+#result_page_output {
+	margin-left: 8px;
+	bottom: 0;
+}
+#pieCharts{
+	vertical-align: middle;
+	justify-content: center;
+	background-color: white;
+	width: 100%;	
+	color: black;
+}
+
+#coverage{
+	float: left;
+	width: 50%;
+	background-color: white;	
+}
+
+#blitz{
+	float: left;
+	width: 50%;
+	background-color: white;
+}
+
+#downInfo{
+	justify-content: center;
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+#downChart{
+	width: 50%;
+}
+
+
